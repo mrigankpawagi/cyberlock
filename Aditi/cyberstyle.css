@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	font-family:"Rockwell";
+	font-size:1.2em;
+}
+.container
+{ 
+width:100%;
+}
+.wrapper
+{
+	width:900px;
+	margin:auto;
+}
+.grey
+{
+	background-color:#333;
+	color:#FFF;
+}
+.blue
+{
+	background-color:#09F;
+}
+#logo
+{
+	display:inline-block;
+	height:168px;
+	width:450px;
+}
+#search
+{
+	margin-top:75px;
+	float:right;
+}
+#search_box
+{
+	border-radius:8px;
+	height:30px;
+	border:2px solid #333;
+}
+#search_btn
+{
+	border-radius:8px;
+	height:30px;
+	background-color:#333;
+	color:#FFF;
+	margin-left:8px;
+}
+ul li
+{
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+	width:210px;
+	height:35px;
+	line-height:35px;
+}
+ul li a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+ul li:hover
+{
+	background-color:#09F;
+	cursor:pointer;
+}
+#slder
+{
+	background-color:#09F;
+	padding:5px;
+	border:5px solid #09F;
+	box-shadow:5px 5px 8px #09F;
+	margin:auto;
+}
+#slder:hover
+{
+	cursor:pointer;
+	transition:transform 5s;
+	transform:scale(1.1);
+}
+h3
+{
+	text-align:center;
+	color:#09F;
+}
+#features
+{
+	width:220px;
+	margin:20px;
+	padding:15px;
+	display:inline-block;
+	box-shadow:2px 2px 5px #09F;
+}
+#footer
+{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+	
+	
+
+	
+
